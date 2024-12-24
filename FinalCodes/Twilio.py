@@ -26,8 +26,8 @@ def collect_weather(lat, long):
         return None, None
 
 def send_sms(message_body, to_phno):
-    account_sid = 'ACa1724f4ca98de87b1ed387eec79e157d'
-    auth_token = 'a6c361f875a5aae76d112f0a2db09810'
+    account_sid = ''#Attention
+    auth_token = ''#Attention
     
     client = Client(account_sid, auth_token)
 
