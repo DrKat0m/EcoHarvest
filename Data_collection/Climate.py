@@ -25,7 +25,7 @@ def get_historical_weather(api_key, location, start_date, end_date):
 
 if __name__ == "__main__":
     # Replace 'YOUR_API_KEY' with your Visual Crossing Weather Data API key
-    api_key = "VY73J6EZ2RZNSPRNM62JAZFRR"
+    api_key = ""#Attention
     location = "New York, NY"  # Replace with your desired city and country
     end_date = datetime.now()
     start_date = end_date - timedelta(days=50)  # Retrieve data for the past year
