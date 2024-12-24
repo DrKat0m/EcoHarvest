@@ -1,7 +1,7 @@
 import requests
 
 def get_humidity(latitude, longitude):
-    api_key = "3aef63c856eeb24c8b3f980d307464d4" 
+    api_key = ""#Attention
     base_url = "http://api.openweathermap.org/data/2.5/weather"
     params = {
         "lat": latitude,
